@@ -1,0 +1,5 @@
+model,model_display_name,level,best_validation_accuracy,best_epoch,epochs_completed,total_training_time_seconds,total_parameters,trainable_parameters,peak_gpu_vram_mb_training,peak_ram_mb_training
+mobilenetv3,MobileNetV3-Large,1,0.985,18,24,1853.9082294999998,4204594,4204594,1442.55029296875,1511.984375
+resnet50,ResNet50,1,0.992,17,23,2027.6477913999988,23512130,23512130,2957.2939453125,1505.15234375
+efficientnetv2,EfficientNetV2-S,1,0.993,13,19,1552.6323758999988,20180050,20180050,4977.19140625,653.46484375
+deit_tiny,DeiT-Tiny,1,0.976,19,25,1943.581272899999,5524802,5524802,1020.35888671875,599.97265625

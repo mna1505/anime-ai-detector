@@ -1,0 +1,5 @@
+model,architecture,condition,number_of_images,confusion_matrix,accuracy,precision,recall,f1_score,roc_auc,total_inference_time_seconds,inference_latency_ms_per_image,throughput_images_per_second,peak_gpu_vram_mb_inference,baseline_ram_mb_inference,peak_ram_mb_inference,peak_ram_delta_mb_inference
+mobilenetv3,MobileNetV3-Large,in_domain,1000,"[[488, 12], [6, 494]]",0.982,0.987854251,0.976,0.981891348,0.002592,2.1935438,2.1935438,455.8833063,263.2124023,1162.964844,1232.542969,69.578125
+mobilenetv3,MobileNetV3-Large,cross_generator,1000,"[[69, 431], [1, 499]]",0.568,0.985714286,0.138,0.242105263,0.117848,2.3714087,2.3714087,421.6902805,263.2124023,1234.09375,1251.585938,17.4921875
+deit_tiny,DeiT-Tiny,in_domain,1000,"[[485, 15], [16, 484]]",0.969,0.968063872,0.97,0.969030969,0.004012,2.2952307,2.2952307,435.6860511,103.1469727,1350.148438,1368.914063,18.765625
+deit_tiny,DeiT-Tiny,cross_generator,1000,"[[193, 307], [25, 475]]",0.668,0.885321101,0.386,0.537604457,0.174368,1.7483991,1.7483991,571.9517929,103.1469727,1350.078125,1367.960938,17.8828125

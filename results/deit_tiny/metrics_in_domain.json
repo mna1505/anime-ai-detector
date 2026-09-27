@@ -1,0 +1,28 @@
+{
+    "model": "deit_tiny",
+    "architecture": "DeiT-Tiny",
+    "condition": "in_domain",
+    "number_of_images": 1000,
+    "confusion_matrix": [
+        [
+            485,
+            15
+        ],
+        [
+            16,
+            484
+        ]
+    ],
+    "accuracy": 0.969,
+    "precision": 0.9680638722554891,
+    "recall": 0.97,
+    "f1_score": 0.9690309690309691,
+    "roc_auc": 0.0040120000000000025,
+    "total_inference_time_seconds": 2.295230699998683,
+    "inference_latency_ms_per_image": 2.295230699998683,
+    "throughput_images_per_second": 435.6860510799955,
+    "peak_gpu_vram_mb_inference": 103.14697265625,
+    "baseline_ram_mb_inference": 1350.1484375,
+    "peak_ram_mb_inference": 1368.9140625,
+    "peak_ram_delta_mb_inference": 18.765625
+}

@@ -1,0 +1,5 @@
+model,condition,number_of_images,confusion_matrix,accuracy,precision,recall,f1_score,roc_auc,total_inference_time_seconds,inference_latency_ms_per_image,throughput_images_per_second,peak_gpu_vram_mb_inference,baseline_ram_mb_inference,peak_ram_mb_inference,peak_ram_delta_mb_inference
+mobilenetv3,in_domain,1000,"[[487, 13], [7, 493]]",0.98,0.98582996,0.974,0.979879276,0.004828,1.714656,1.714656,583.2073605,263.2124023,1193.964844,1258.789063,64.82421875
+mobilenetv3,cross_generator,1000,"[[135, 365], [14, 486]]",0.621,0.906040268,0.27,0.416024653,0.242812,1.6899106,1.6899106,591.7472794,263.2124023,1264.851563,1282.765625,17.9140625
+deit_tiny,in_domain,1000,"[[485, 15], [9, 491]]",0.976,0.981781377,0.97,0.975855131,0.006716,1.7499206,1.7499206,571.4544991,103.1469727,1313.5625,1331.113281,17.55078125
+deit_tiny,cross_generator,1000,"[[96, 404], [8, 492]]",0.588,0.923076923,0.192,0.317880795,0.410544,2.0067535,2.0067535,498.317307,103.1469727,1329.925781,1346.050781,16.125

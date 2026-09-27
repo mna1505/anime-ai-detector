@@ -1,0 +1,114 @@
+[
+    {
+        "model": "mobilenetv3",
+        "architecture": "MobileNetV3-Large",
+        "condition": "in_domain",
+        "number_of_images": 1000,
+        "confusion_matrix": [
+            [
+                488,
+                12
+            ],
+            [
+                6,
+                494
+            ]
+        ],
+        "accuracy": 0.982,
+        "precision": 0.9878542510121457,
+        "recall": 0.976,
+        "f1_score": 0.9818913480885312,
+        "roc_auc": 0.0025920000000000023,
+        "total_inference_time_seconds": 2.193543800001862,
+        "inference_latency_ms_per_image": 2.193543800001862,
+        "throughput_images_per_second": 455.8833062732329,
+        "peak_gpu_vram_mb_inference": 263.21240234375,
+        "baseline_ram_mb_inference": 1162.96484375,
+        "peak_ram_mb_inference": 1232.54296875,
+        "peak_ram_delta_mb_inference": 69.578125
+    },
+    {
+        "model": "mobilenetv3",
+        "architecture": "MobileNetV3-Large",
+        "condition": "cross_generator",
+        "number_of_images": 1000,
+        "confusion_matrix": [
+            [
+                69,
+                431
+            ],
+            [
+                1,
+                499
+            ]
+        ],
+        "accuracy": 0.568,
+        "precision": 0.9857142857142858,
+        "recall": 0.138,
+        "f1_score": 0.24210526315789474,
+        "roc_auc": 0.11784800000000001,
+        "total_inference_time_seconds": 2.371408699996209,
+        "inference_latency_ms_per_image": 2.371408699996209,
+        "throughput_images_per_second": 421.69028054995266,
+        "peak_gpu_vram_mb_inference": 263.21240234375,
+        "baseline_ram_mb_inference": 1234.09375,
+        "peak_ram_mb_inference": 1251.5859375,
+        "peak_ram_delta_mb_inference": 17.4921875
+    },
+    {
+        "model": "deit_tiny",
+        "architecture": "DeiT-Tiny",
+        "condition": "in_domain",
+        "number_of_images": 1000,
+        "confusion_matrix": [
+            [
+                485,
+                15
+            ],
+            [
+                16,
+                484
+            ]
+        ],
+        "accuracy": 0.969,
+        "precision": 0.9680638722554891,
+        "recall": 0.97,
+        "f1_score": 0.9690309690309691,
+        "roc_auc": 0.0040120000000000025,
+        "total_inference_time_seconds": 2.295230699998683,
+        "inference_latency_ms_per_image": 2.295230699998683,
+        "throughput_images_per_second": 435.6860510799955,
+        "peak_gpu_vram_mb_inference": 103.14697265625,
+        "baseline_ram_mb_inference": 1350.1484375,
+        "peak_ram_mb_inference": 1368.9140625,
+        "peak_ram_delta_mb_inference": 18.765625
+    },
+    {
+        "model": "deit_tiny",
+        "architecture": "DeiT-Tiny",
+        "condition": "cross_generator",
+        "number_of_images": 1000,
+        "confusion_matrix": [
+            [
+                193,
+                307
+            ],
+            [
+                25,
+                475
+            ]
+        ],
+        "accuracy": 0.668,
+        "precision": 0.8853211009174312,
+        "recall": 0.386,
+        "f1_score": 0.5376044568245125,
+        "roc_auc": 0.174368,
+        "total_inference_time_seconds": 1.748399099998096,
+        "inference_latency_ms_per_image": 1.748399099998096,
+        "throughput_images_per_second": 571.9517929293655,
+        "peak_gpu_vram_mb_inference": 103.14697265625,
+        "baseline_ram_mb_inference": 1350.078125,
+        "peak_ram_mb_inference": 1367.9609375,
+        "peak_ram_delta_mb_inference": 17.8828125
+    }
+]

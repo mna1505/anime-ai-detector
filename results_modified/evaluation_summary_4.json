@@ -1,0 +1,118 @@
+[
+  {
+    "model": "mobilenetv3",
+    "condition": "in_domain",
+    "level": 4,
+    "number_of_images": 1000,
+    "confusion_matrix": [
+      [
+        488,
+        12
+      ],
+      [
+        31,
+        469
+      ]
+    ],
+    "accuracy": 0.957,
+    "precision": 0.9402697495183044,
+    "recall": 0.976,
+    "f1_score": 0.957801766437684,
+    "roc_auc": 0.007968000000000005,
+    "total_inference_time_seconds": 1.6857029999955557,
+    "inference_latency_ms_per_image": 1.6857029999955557,
+    "throughput_images_per_second": 593.2243105711009,
+    "peak_gpu_vram_mb_inference": 269.337890625,
+    "baseline_ram_mb_inference": 1162.4921875,
+    "peak_ram_mb_inference": 1237.14453125,
+    "peak_ram_delta_mb_inference": 74.65234375,
+    "label_mapping": "0=AI, 1=Human"
+  },
+  {
+    "model": "mobilenetv3",
+    "condition": "cross_generator",
+    "level": 4,
+    "number_of_images": 1000,
+    "confusion_matrix": [
+      [
+        323,
+        177
+      ],
+      [
+        48,
+        452
+      ]
+    ],
+    "accuracy": 0.775,
+    "precision": 0.8706199460916442,
+    "recall": 0.646,
+    "f1_score": 0.7416762342135477,
+    "roc_auc": 0.107928,
+    "total_inference_time_seconds": 1.6098520000086864,
+    "inference_latency_ms_per_image": 1.6098520000086864,
+    "throughput_images_per_second": 621.1751142307518,
+    "peak_gpu_vram_mb_inference": 269.337890625,
+    "baseline_ram_mb_inference": 1242.921875,
+    "peak_ram_mb_inference": 1267.75390625,
+    "peak_ram_delta_mb_inference": 24.83203125,
+    "label_mapping": "0=AI, 1=Human"
+  },
+  {
+    "model": "deit_tiny",
+    "condition": "in_domain",
+    "level": 4,
+    "number_of_images": 1000,
+    "confusion_matrix": [
+      [
+        487,
+        13
+      ],
+      [
+        11,
+        489
+      ]
+    ],
+    "accuracy": 0.976,
+    "precision": 0.9779116465863453,
+    "recall": 0.974,
+    "f1_score": 0.9759519038076152,
+    "roc_auc": 0.006580000000000006,
+    "total_inference_time_seconds": 1.8180875000034575,
+    "inference_latency_ms_per_image": 1.8180875000034575,
+    "throughput_images_per_second": 550.0285327290893,
+    "peak_gpu_vram_mb_inference": 109.45947265625,
+    "baseline_ram_mb_inference": 1286.5390625,
+    "peak_ram_mb_inference": 1310.19921875,
+    "peak_ram_delta_mb_inference": 23.66015625,
+    "label_mapping": "0=AI, 1=Human"
+  },
+  {
+    "model": "deit_tiny",
+    "condition": "cross_generator",
+    "level": 4,
+    "number_of_images": 1000,
+    "confusion_matrix": [
+      [
+        200,
+        300
+      ],
+      [
+        18,
+        482
+      ]
+    ],
+    "accuracy": 0.682,
+    "precision": 0.9174311926605505,
+    "recall": 0.4,
+    "f1_score": 0.5571030640668524,
+    "roc_auc": 0.19542,
+    "total_inference_time_seconds": 1.753541900026903,
+    "inference_latency_ms_per_image": 1.753541900026903,
+    "throughput_images_per_second": 570.2743686846935,
+    "peak_gpu_vram_mb_inference": 109.45947265625,
+    "baseline_ram_mb_inference": 1307.61328125,
+    "peak_ram_mb_inference": 1331.640625,
+    "peak_ram_delta_mb_inference": 24.02734375,
+    "label_mapping": "0=AI, 1=Human"
+  }
+]

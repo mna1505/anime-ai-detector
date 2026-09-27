@@ -1,0 +1,19 @@
+{
+  "model": "deit_tiny",
+  "model_display_name": "DeiT-Tiny",
+  "level": 1,
+  "level_strategy": "AdamW + cosine + robustness augmentation",
+  "label_mapping": {
+    "AI": 0,
+    "Human": 1
+  },
+  "best_validation_accuracy": 0.976,
+  "best_epoch": 19,
+  "epochs_completed": 25,
+  "total_training_time_seconds": 1943.581272899999,
+  "total_parameters": 5524802,
+  "trainable_parameters": 5524802,
+  "peak_gpu_vram_mb_training": 1020.35888671875,
+  "peak_ram_mb_training": 599.97265625,
+  "checkpoint": "D:\\YANG AKAN DI COPAS\\1_DOKUMEN KULIAH\\Semester 5\\Bahan Riset AI\\Anime\\anime-ai-detector-baru\\models_modified\\level1\\deit_tiny\\best_model.pth"
+}

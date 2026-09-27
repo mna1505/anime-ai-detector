@@ -1,0 +1,1 @@
+# anime-ai-detector

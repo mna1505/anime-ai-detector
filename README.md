@@ -471,7 +471,7 @@ The following visualization compares classification accuracy from the
 baseline through Level 4 under the **Cross Generator** condition.
 
 ![Cross-Generator Accuracy --- Baseline to Level
-4](statistical_visualization/09_line_dots_statistics/classification/cross_generator_accuracy_line_dot.png)
+4](statistical_visualization/09_line_dot_statistics/classification/cross_generator_accuracy_line_dot.png)
 
 ### Recorded values in the visualization
 

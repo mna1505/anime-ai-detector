@@ -1,0 +1,21 @@
+model,model_name,level,condition,TN,FP,FN,TP
+mobilenetv3,MobileNetV3-Large,Baseline,in_domain,488.0,12.0,6.0,494.0
+mobilenetv3,MobileNetV3-Large,Baseline,cross_generator,69.0,431.0,1.0,499.0
+deit_tiny,DeiT-Tiny,Baseline,in_domain,485.0,15.0,16.0,484.0
+deit_tiny,DeiT-Tiny,Baseline,cross_generator,193.0,307.0,25.0,475.0
+mobilenetv3,MobileNetV3-Large,Level 1,in_domain,491.0,9.0,13.0,487.0
+mobilenetv3,MobileNetV3-Large,Level 1,cross_generator,146.0,354.0,24.0,476.0
+deit_tiny,DeiT-Tiny,Level 1,in_domain,489.0,11.0,10.0,490.0
+deit_tiny,DeiT-Tiny,Level 1,cross_generator,153.0,347.0,9.0,491.0
+mobilenetv3,MobileNetV3-Large,Level 2,in_domain,487.0,13.0,7.0,493.0
+mobilenetv3,MobileNetV3-Large,Level 2,cross_generator,135.0,365.0,14.0,486.0
+deit_tiny,DeiT-Tiny,Level 2,in_domain,485.0,15.0,9.0,491.0
+deit_tiny,DeiT-Tiny,Level 2,cross_generator,96.0,404.0,8.0,492.0
+mobilenetv3,MobileNetV3-Large,Level 3,in_domain,486.0,14.0,32.0,468.0
+mobilenetv3,MobileNetV3-Large,Level 3,cross_generator,313.0,187.0,58.0,442.0
+deit_tiny,DeiT-Tiny,Level 3,in_domain,491.0,9.0,24.0,476.0
+deit_tiny,DeiT-Tiny,Level 3,cross_generator,245.0,255.0,27.0,473.0
+mobilenetv3,MobileNetV3-Large,Level 4,in_domain,488.0,12.0,31.0,469.0
+mobilenetv3,MobileNetV3-Large,Level 4,cross_generator,323.0,177.0,48.0,452.0
+deit_tiny,DeiT-Tiny,Level 4,in_domain,487.0,13.0,11.0,489.0
+deit_tiny,DeiT-Tiny,Level 4,cross_generator,200.0,300.0,18.0,482.0
